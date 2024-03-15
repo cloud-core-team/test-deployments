@@ -50,7 +50,7 @@ kind: Service
 metadata:
   labels:
     app: kafka-broker
-  name: kafka-service
+  name: kafka-broker
   namespace: kafka
 spec:
   ports:
@@ -62,5 +62,5 @@ spec:
 ## Get URL to UI
 
 ```bash
-minikube service rabbitmq --url
+minikube service kafka --url
 ```
